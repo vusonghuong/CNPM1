@@ -1,0 +1,147 @@
+*{
+    font: arial;
+}
+.top-header{
+    background-color: rgb(251, 212, 93);
+}
+.small-logo{
+    max-height: 60px;
+    overflow: hidden;
+    
+}
+.nav-item{
+    padding-right: 10px;
+    display: inline;
+}
+.title-content, .title-content-furniture{
+    font-size: 30px;
+
+}
+.title-item-furniture{
+    display: grid; 
+    align-items: center;
+}
+hr{
+    margin: 0px;
+}
+
+.finding-home, .popular-picks-item, .related-searches-item, .nav-find, .item-popular-furniture, .item-related-searches{
+    border: 1px solid rgb(43, 41, 41);
+    border-radius: 40px; 
+    
+}
+.item-related-searches{
+    /* display: grid;
+    align-items: center; */
+    margin-top: 4px;
+    padding: 8px 12px;
+
+}
+.item-popular-furniture{
+    align-items: center;
+    display: grid;
+    padding: 8px 12px;
+    margin-top: 4px;
+}
+.item-furniture{
+    border-radius: 5px;
+    padding: 2px;
+}
+.quick-service{
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 5px; 
+}
+.call{
+    border: 1px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 5px; 
+}
+.nav-find{
+    border: 1px solid lightgrey; !important
+}
+.living-room{
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet ; !important
+}
+
+.item-img-popular{
+    max-height: 400px;
+    width: 100%;
+}
+.item-related-to-furniture, .item-popular-picks{
+    box-shadow: 0 0 5px rgb(187, 183, 183);
+}
+.item-related-to-furniture{
+    text-align: center;
+}
+.item-img-related-to-furniture{
+    max-height: 200px;
+    overflow: hidden;
+    width: 100%;
+
+}
+.price-popular-picks{
+    color: red;
+}
+.top-footer{
+    padding: 40px;
+    border-bottom: 1px solid rgb(209, 209, 214);
+    border-top: 1px solid rgb(209, 209, 214);
+}
+.bottom-header{
+    padding: 5px;
+    border-bottom: 1px solid rgb(209, 209, 214);
+    border-top: 1px solid rgb(209, 209, 214);
+}
+.input-email{
+    border: 1px solid dimgray;
+    border-radius: 8px;
+}
+.content-top-footer{
+    justify-content: center;
+}
+.middle-footer{
+    border-bottom: 1px solid rgb(209, 209, 214);
+}
+.item-middle-footer{
+    padding: 0px;
+    line-height: 2.5;
+}
+.icon-footer{
+    font-size: 20px;
+    color: blueviolet;
+}
+.img-popular-picks{
+    position: relative;
+}
+.img-popular-picks .sale{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(197, 42, 42);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    border-top-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    align-items: center;
+    display: grid;
+    padding: 2px;
+    font-size: 14px;
+
+}
+.copyright p{
+    margin-bottom: 0;
+    font-size: 10px;
+}
+.icon-footer span{
+    margin: 0 3px;
+}

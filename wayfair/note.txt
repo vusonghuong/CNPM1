@@ -1,0 +1,90 @@
+ĐƠN VỊ TRONG CSS:
+- px: cố định
+- rem: phụ thuộc vào thẻ html
+- em: phụ thuộc vào thẻ chứa nó gần nhất
+- %: phụ thuộc vào thẻ chứa nó
+
+float-left: đẩy các element về bên trái
+
+box-sizing: border-box sẽ được hiểu là: 
+    chiều ngang của element sẽ bằng boder + padding + kích thước content 
+box-sizing: content-box;  như cũ 
+box-sizing: unset; hủy đi cái cũ
+
+background-clip: đổ màu từ thành phần nào?, đi kèm với background-color
+background-clip: border-box -> từ lớp boder
+background-clip: padding-box -> từ lớp padding
+background-clip: content-box -> từ lớp content
+
+background-size: contain // tự căn lấy chiều dài hoặc ngang mà không làm mất góc hay kéo giãn hình ảnh
+background-size: cover  //lấy chiều dài hơn của ảnh và chấp nhận khuất góc ảnh
+
+background-origin: tương tự như background-clip , đi kèm với background-image
+
+background-position: tùy chỉnh vị trí hình ảnh nền 
+
+rgba() r-red g-green b-blue a-alpha: hệ số trong suốt, càng nhỏ thì độ trong suốt càng cao (có giá trị từ 0 đến 1, 1-phủ đầy)
+
+
+    CSS FUNCTIONS 
+rgb(): pha trộn màu
+attr(): kết hợp ::after , muốn thay đổi một thứ ở nhiều nơi
+
+
+--------------------------------------------------
+
+    CSS PSEUDO - CLASSES  (lớp giả)
+:root - tham chiếu tới thẻ html
+:hover - kích hoạt khi di chuột lên
+:active - kích hoạt khi nhấp chuột vào
+:first-child - select vào phần tử đầu tiên
+:last-child - select vào phần tử cuối
+
+    CSS PSEUDO - ELEMENT (phần tử giả)
+::before - phần tử ở trước
+::after - phần tử ở sau 
+::first-letter: chữ cái đầu tiên 
+::first-line: dòng đầu tiên 
+::section: khi chọn vào phần tử sẽ có hiệu ứng
+*Note: Mỗi element chỉ tồn tại 1 before và 1 after
+
+    CSS Position: Tạo ra và thiết lập các vị trí cho element
+- Relative: vị trí tương đối, không bị phụ thuộc vào đối tượng khác, tự lấy nó làm gốc tọa độ
+- Absolute: vị trí tuyệt đối, phụ thuộc vào thẻ cha gần nhất có thuộc tính Position, lấy thẻ cha đó làm gốc tọa độ.
+- Fixed: vị trí phụ thuộc vào khung trình duyệt, dính vào mép trình duyệt
+- Sticky: vị trí bám dính phụ thuộc vào khung trình duyệt
+
+    CSS Flexbox
+- display: flex/inline flex
+- flex-direction: row -> theo main axis|column -> theo cross axis
+- flex-wrap: nowrap| wrap -> có thể xuống dòng| wrap-reverse -> nhảy lên trên, đảo chiều của cross start và cross end
+- flex-basic: <length> -> chiều dài của main size
+- justify-content: căn các flex-item theo phương main axis, element cha
+- justify-self: xét với các element con 
+- align-content: căn theo cross axis 
+- align-self: tương tự với các element con
+- flex-grow: <number> -> thay đổi kích thước main size lớn hơn theo main axis, có thể chia theo trọng số và tỉ lệ
+- flex-shrink: <number> -> thu nhỏ kích thước lại
+- flex: short hand- viết tắt cho 3 cái: flex-basic, flex-grow, flex-shrink
+- order: quyết định flex-item, cái nào hiển thị trước, hiển thị sau, thay đổi vị trí mong muốn mà ko phụ thuộc vị trí start và end
+- flex-flow: cú pháp short hand của flex-direction và flex-wrap
+
+*Note: nếu 1 thành phần có flex: 1 -> nó sẽ chiếm hết khoảng không gian còn lại
+
+- justify-content: space-between -> căn giãn ra, sát lề
+- justify-content: space-around -> căn giãn ra, khoảng cách ngoài lề bằng một nữa kc các tp ở giữa
+- justify-content: space-
+- 
+- 
+
+
+
+
+
+
+
+
+
+
+
+

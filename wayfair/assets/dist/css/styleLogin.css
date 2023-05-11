@@ -1,0 +1,6 @@
+.login-extension {
+    transition: transform  .1s;
+   }
+.login-extension:hover {
+       transform: scale(1.5);
+   }

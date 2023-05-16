@@ -31,6 +31,7 @@ a{
     justify-content: space-evenly;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 0.85rem;
 }
 
 .logo {
@@ -80,12 +81,35 @@ a{
     font-size: 0.86rem;
 }
 
+.search-option {
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    color: #434A6E;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 .search-btn {
 
 }
 
 .search-btn-text {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background-color: #25975A;
+}
 
+.search-btn-text:hover {
+    background-color: #434A6E;
 }
 
 .search-btn-icon {

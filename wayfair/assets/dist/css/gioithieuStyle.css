@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+:root {
+    --primary-color: #35BF76;
+    --color-text: #434A6E;
+}
+
+.intro {
+    background-image: url(//bizweb.dktcdn.net/100/328/362/themes/894751/assets/bg_breadcrumb.png?1664350964800);
+    background-size: cover;
+    background-position: center top;
+    padding: 25px 0px;
+    background-repeat: no-repeat;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    float: left;
+    flex-flow: column;
+}
+
+.title-page {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Roboto",sans-serif;
+    color: #fff;
+}
+
+.desc-intro {
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    font-size: 16px;
+    padding: 15px 0px 15px;
+    border-radius: 0;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.desc-intro li {
+    display: inline;
+}
+.home:hover {
+    color: var(--primary-color)
+ }
+
+.intro-item {
+    color: var(--primary-color);
+}
+
+.page-content {
+
+    /* margin-top: 5px; */
+}
+
+.title-head {
+    font-size: 20px;
+}
+
+.hover-title-header:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.desc-page-container p {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.item-desc-page-content {
+    font-size: 14px;
+}
+

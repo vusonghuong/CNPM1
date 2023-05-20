@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-sanpham {
+    display: flex;
+    align-items: center;
+}
+  
+.img-sanpham img {
+    max-width: 100%;
+    height: auto;
+}
+  
+ 

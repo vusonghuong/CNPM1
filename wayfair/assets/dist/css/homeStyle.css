@@ -117,7 +117,7 @@ a{
 
 .logo {
     margin-right: 5rem;
-}
+}h2
 
 .logo > a {
     padding: 1rem;
@@ -184,15 +184,17 @@ a{
     font-size: 0.85rem;
     font-weight: 600;
     background-color: #25975A;
+    width: 100%;
+    margin-top: 9.5%;
 }
 
 .search-btn-text:hover {
     background-color: var(--color-text);
 }
 
-.content-global {
+/* .content-global {
     margin: 0 2.8rem;
-}
+} */
 
 .content {
     padding: 3rem 0 2rem;
@@ -232,7 +234,7 @@ a{
 }
 
 .product1 {
-    width: 23.125rem;
+    /* width: 23.125rem; */
     position: relative;
 }
 
@@ -338,11 +340,6 @@ a{
 
 .product2 > .product1-image {
     height: 11.4rem;
-}
-
-.search-btn-icon {
- 
-    
 }
 
 .section-why {
@@ -589,3 +586,25 @@ color: #fff;
 .group-name:hover {
     text-decoration: underline;
 }
+
+
+
+.carousel-inner .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-inner .col-xs-12 {
+    margin-bottom: 10px;
+  }
+  
+  .carousel-inner .col-sm-2 {
+    width: 20%;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }

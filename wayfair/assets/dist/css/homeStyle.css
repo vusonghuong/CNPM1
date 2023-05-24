@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    /* height: 100000px; */
-}
-
 :root {
     --primary-color: #35BF76;
     --color-text: #434A6E;
@@ -37,7 +33,7 @@ a{
 .hot::before {
     content: "hot";
     position: absolute;
-    background-color: #FFC321;
+    background-color: #3fdd00;
     right: 0.6rem;
     width: 3rem;
     height: 2.6rem;
@@ -47,6 +43,16 @@ a{
     font-weight: 700;
     line-height: 2rem;
     animation: 0.5s linear 1s infinite reverse flicker;
+}
+
+.hot::after {
+    content: "";
+    position: absolute;
+    top: 1.6rem;
+    right: 0.6rem;
+    border: 1rem solid;
+    border-width: 1rem 1.5rem;
+    border-color: transparent #3fdd00;
 }
 
 @keyframes flicker {
@@ -60,16 +66,6 @@ a{
     100% {
         color: red;
     }
-}
-
-.hot::after {
-    content: "";
-    position: absolute;
-    top: 1.6rem;
-    right: 0.6rem;
-    border: 1rem solid;
-    border-width: 1rem 1.5rem;
-    border-color: transparent #FFC321;
 }
 
 .vip::before {
@@ -112,7 +108,7 @@ a{
     justify-content: space-evenly;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
 }
 
 .logo {
@@ -132,7 +128,12 @@ a{
     background-color: var(--primary-color);
     font-weight: 400;
     border: none;
-    margin-left: 3rem;
+    min-width: 40%;
+    margin-right: 1rem;
+}
+
+.nav-login {
+    display: flex;
 }
 
 .btn:hover {
@@ -164,7 +165,7 @@ a{
 }
 
 .search-option {
-    width: 18rem;
+    width: 100%;
     height: 2.5rem;
     border-radius: 0.4rem;
     font-size: 0.8rem;
@@ -176,7 +177,6 @@ a{
 }
 
 .search-btn-text {
-    width: 10rem;
     height: 2.5rem;
     border-radius: 0.4rem;
     border: none;
@@ -226,6 +226,7 @@ a{
     font-size: 0.9rem;
     font-weight: 400;
     letter-spacing: 0.05rem;
+    text-align: center;
 }
 
 .content-product, .content3-product {
@@ -236,6 +237,7 @@ a{
 .product1 {
     /* width: 23.125rem; */
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .product1:hover, .product2:hover {
@@ -248,7 +250,7 @@ a{
 }
 
 .product1-image {
-    background: url(https://bizweb.dktcdn.net/thumb/grande/100/328/362/products/97493029.jpg?v=1534497006637) center / contain no-repeat;
+    background: url(https://bizweb.dktcdn.net/thumb/grande/100/328/362/products/97493029.jpg?v=1534497006637) center / cover no-repeat;
     width: 100%;
     height: 15.525rem;
 }
@@ -297,7 +299,7 @@ a{
 }
 
 .product1-footer {
-    padding: 1.6rem 1.2rem;
+    padding: 0.8rem 1.2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -336,6 +338,7 @@ a{
 
 .product2 {
     width: 16.875rem;
+    margin-bottom: 2rem;
 }
 
 .product2 > .product1-image {
@@ -555,16 +558,20 @@ color: #fff;
     margin: 0px 0 25px 0;
 }
 
-.desc-item-bottom-footer, .desc-logo-footer, .desc-bottom-footer-2{
+.desc-logo-footer, .desc-bottom-footer-2{
     opacity: .5;
+}
+
+.a-text {
+    color: #fff;
 }
 
 .desc-1 {
     margin-top: 3px;
 }
 
-.a-text {
-    color: #fff;
+.bottom-footer .a-text {
+    color: #9B9EAE;
 }
 
 .a-text:hover{
@@ -608,3 +615,16 @@ color: #fff;
     width: 100%;
     height: auto;
   }
+
+#mail {
+    outline: none;
+}
+
+.button-subscribe {
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.button-subscribe:hover {
+    background-color: #434A6E !important;
+}

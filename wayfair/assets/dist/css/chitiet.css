@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
 }
 
 .img-sanpham {
@@ -14,4 +15,117 @@
     height: auto;
 }
   
+.title-product, .title_lienquan {
+    font-family: "Roboto",sans-serif;
+    color: #434a6e;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+    line-height: normal;
+}
+
+.thongtin {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.thongtin span.first_in {
+    font-weight: 700;
+    color: #434a6e;
+}
+
+.thongtin span {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.thongtin span.first_in:first-child {
+    margin-right: 10px;
+}
+
+.product-price {
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #35bf76;
+}
+
+.inf-product {
+    display: block;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #434a6e;
+    margin-bottom: 10px;
+} 
+
+.desc-product {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #83839a;
+}
+
+.btn-nhantin {
+    background-color: #434a6e;
+}
+
+.btn-product {
+    width: 100%;
+}
+
+.title_lienquan:hover {
+    color: #35bf76;
+    cursor: pointer;
+}
+
+.title_lienquan {
+    text-align: center;
+    font-size: 24px;
+}
+
+.desc-lienquan {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.mota-product, .danhgia-product {
+    font-size: 14px;
+    color: #333;
+}
+
+.bg-btn {
+    background-color: #35bf76; 
+}
+
+.desc-sp-product {
+
+}
+
+.input-danhgia {
+    border: #83839a;
+}
+
+.icon-lienhe {
+    color: #35bf76;
+    font-size: 20px;
+}
+
+.title-li {
+    margin-left: 2px;
+}
+
+.title-lienhe {
+    text-transform: uppercase;
+    color: #434a6e;
+    font-size: 18px;
+}
+
+.desc-lienhe {
+    font-size: 15px;
+    color: #434a6e;
+}
  

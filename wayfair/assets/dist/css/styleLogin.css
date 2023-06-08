@@ -5,3 +5,15 @@
 .login-extension:hover {
        transform: scale(1.5);
    }
+
+.account {
+    text-align: center;
+}
+
+.form-register {
+    /* display: none;  */
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    z-index: 99;
+}

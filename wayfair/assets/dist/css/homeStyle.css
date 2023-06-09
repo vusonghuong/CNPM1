@@ -236,6 +236,36 @@ a{
     text-align: center;
 }
 
+#hotline {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    
+  }
+#hotline:hover {
+  background-color: red;
+}
+  
+  #hotline a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #hotline i {
+    margin-right: 10px;
+  }
+
+
+  
+  
+
 .content-product, .content3-product {
     display: flex;
     justify-content: space-between;

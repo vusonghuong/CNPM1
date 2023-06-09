@@ -15,64 +15,59 @@
     <div class="page-wrapper">
         <div class="">
             <!-- HEADER -->
-            <div class="container-fluid">
-                <header>
-                    <!-- Begin menu  -->
-                    <div class="p-4">
-                        <div class="row navbar">
-                            <div class="col-12 col-md-3">
-                                <div class="logo">
-                                    <a href="">
-                                        <img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/logo.png?1676257083798"
-                                            alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="item-menu">
-                                    <div class="nav nav1">
-                                        <div class="nav-item p-2">
-                                            <a class="nav-item-link" href="">
-                                                <span style="color: var(--primary-color);">Trang chủ</span>
-                                            </a>
-                                        </div>
-                                        <div class="nav-item p-2">
-                                            <a class="nav-item-link" href="./GioiThieu.html">
-                                                <span>Giới thiệu</span>
-                                            </a>
-                                        </div>
-                                        <div class="nav-item p-2">
-                                            <a class="nav-item-link" href="./Duan.html">
-                                                <span>Sản phẩm</span>
-                                            </a>
-                                        </div>
-                                        <div class="nav-item p-2">
-                                            <a class="nav-item-link" href="./TinTuc.html">
-                                                <span>Tin tức</span>
-                                            </a>
-                                        </div>
-                                        <div class="nav-item p-2">
-                                            <a class="nav-item-link" href="">
-                                                <span>Liên hệ</span>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="nav-login col-12 col-md-3">
-                                <button class="btn btn-primary px-4">
-                                    <a style="color:#fff;" href="./login.html">Đăng nhập</a>
-                                </button>
-                                <button class="btn btn-primary px-4">
-                                    <a style="color:#fff;" href="./register.html">Đăng kí</a>
-                                </button>
+            <header>
+                <!-- Begin menu  -->
+                <div class="p-4">
+                    <div class="row navbar">
+                        <div class="col-12 col-md-3">
+                            <div class="logo">
+                                <a href="">
+                                    <img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/logo.png?1676257083798"
+                                        alt="">
+                                </a>
                             </div>
                         </div>
+                        <div class="col-12 col-md-6">
+                            <div class="item-menu">
+                                <div class="nav nav1">
+                                    <div class="nav-item p-2">
+                                        <a class="nav-item-link" href="">
+                                            <span style="color: var(--primary-color);">Trang chủ</span>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item p-2">
+                                        <a class="nav-item-link" href="./GioiThieu.html">
+                                            <span>Giới thiệu</span>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item p-2">
+                                        <a class="nav-item-link" href="./Duan.html">
+                                            <span>Sản phẩm</span>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item p-2">
+                                        <a class="nav-item-link" href="./TinTuc.html">
+                                            <span>Tin tức</span>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item p-2">
+                                        <a class="nav-item-link" href="">
+                                            <span>Liên hệ</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-login col-12 col-md-3">
+                            <button class="btn btn-primary px-4">
+                                <a style="color:#fff;" href="./HomeAo.html">Hương Vũ</a>
+                            </button>
+                        </div>
                     </div>
-                    <!-- End menu  -->
-                </header>
-            </div>
+                </div>
+                <!-- End menu  -->
+            </header>
             <!-- SLIDESHOW -->
             <div class="container-fluid">
                 <div class="p-0">
@@ -123,14 +118,6 @@
                         </button>
                     </div>
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div id="hotline">
-                    <a href="tel:0123456789"><i class="fa fa-phone"></i> Hotline: 0123456789</a>
-                </div>
-            </div>
-            <div class="container">
-                <button id="back-to-top-btn"><i class="fa fa-angle-up"></i></button>
             </div>
             <!-- SEARCH -->
             <div class="search">
@@ -1041,31 +1028,6 @@
 
     <script src="./assets/dist/js/boostrap-v5/bootstrap.js"></script>
     <script src="./assets/dist/js/fontawsome-v5/all.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#hotline').click(function () {
-                window.location.href = 'tel:0123456789';
-            });
-        });
-
-        $(document).ready(function () {
-            // Show or hide the button
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 100) {
-                    $('#back-to-top-btn').addClass('show');
-                } else {
-                    $('#back-to-top-btn').removeClass('show');
-                }
-            });
-
-            // Scroll to top when the button is clicked
-            $('#back-to-top-btn').click(function () {
-                $('html, body').animate({ scrollTop: 0 }, 800);
-                return false;
-            });
-        });
-    </script>
-
 </body>
 
 </html>

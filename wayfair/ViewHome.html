@@ -13,7 +13,7 @@
 
 <body>
     <div class="page-wrapper">
-        <div class="">
+        <div class="background">
             <!-- HEADER -->
             <header>
                 <!-- Begin menu  -->
@@ -60,10 +60,10 @@
                             </div>
                         </div>
                         <div class="nav-login col-12 col-md-3">
-                            <button class="btn btn-primary px-4">
-                                <a style="color:#fff;" href="./login.html">Đăng nhập</a>
+                            <button onclick="logIn()" class="btn btn-primary px-4">
+                                Đăng nhập
                             </button>
-                            <button class="btn btn-primary px-4">
+                            <button onclick="logIn()" class="btn btn-primary px-4">
                                 Đăng ký
                             </button>
                         </div>
@@ -930,6 +930,7 @@
         </div>
     </div>
 
+    <div class="overlay"></div>
     <section class="vh-100 gradient-custom form-register">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center h-100">
@@ -938,7 +939,7 @@
                         <div class="card-body p-2 px-5 text-center">
                             <div class="md-5 md-4 mt-4 pb-2">
                                 <h2 class="fw-bold mb-2 text-uppercase">Create an account</h2>
-                                <p class="text-white-50 mb-2">Please enter your Information</p>
+                                <p class="mb-2">Please enter your Information</p>
 
                                 <div class="row">
                                     <div class="col-md-6 mb-2">
@@ -1029,8 +1030,10 @@
         </div>
     </section>
 
+
     <script src="./assets/dist/js/boostrap-v5/bootstrap.js"></script>
     <script src="./assets/dist/js/fontawsome-v5/all.js"></script>
+    <script src="./assets/dist/js/duyhoa/main.js"></script>
 </body>
 
 </html>

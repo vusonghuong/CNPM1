@@ -16,7 +16,7 @@ function closeForm() {
     const screen = $('.form-register')
     const form = $('.text-white')
     
-    screen.addEventListener('click', (e) => {
+    screen.addEventListener('click', () => {
         overlay.style.display = 'none'
         screen.style.display = 'none'
     })
@@ -46,5 +46,3 @@ function run() {
 }
 
 run()
-
-console.log($('header').offsetHeight)

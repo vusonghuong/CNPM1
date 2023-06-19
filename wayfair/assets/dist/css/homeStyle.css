@@ -648,12 +648,20 @@ color: #fff;
 }
 
 .form-register {
-    z-index: 2;
+    z-index: 19;
     display: none;
     position: fixed;
     top: 1rem;
     width: 100%;
     overflow: scroll;
+}
+
+.form-login {
+    z-index: 19;
+    display: none;
+    position: fixed;
+    top: 0.25rem;
+    width: 100%;
 }
 
 .form-register::-webkit-scrollbar {
@@ -677,7 +685,7 @@ color: #fff;
     width: 100%;
     position: absolute;
     top: 0;
-    z-index: 1;
+    z-index: 9;
     height: 274.6rem;
     opacity: 0.6;
 }
@@ -696,7 +704,7 @@ color: #fff;
 .nav-scroll {
     position: fixed;
     width: 100%;
-    z-index: 9;
+    z-index: 5;
     background-color: white;
     box-shadow: #434a6e7a 0 0 12px 4px;
     animation: navTop 0.5s linear;
@@ -710,3 +718,4 @@ color: #fff;
         top: 0%
     }
 }
+
